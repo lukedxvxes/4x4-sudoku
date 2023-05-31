@@ -2,6 +2,7 @@ import './style.scss';
 import { setupGame } from './utils/setupGame';
 import { updateGame } from './utils/updateGame';
 import { resetGame } from './utils/resetGame';
+
 //SETUP
 document.querySelector('#app').innerHTML = `
   <h1>Sudoku</h1>
@@ -13,7 +14,7 @@ document.querySelector('#app').innerHTML = `
 
 setupGame();
 
-// DOM ELEMS
+// GET DOM ELEMS
 const resetBtn = document.querySelector('button[data-type="reset"]');
 const tiles = document.querySelectorAll('.tile');
 

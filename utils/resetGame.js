@@ -5,6 +5,7 @@ export const resetGame = () => {
   document.querySelectorAll('.tile').forEach((tile) => {
     tile.remove();
   });
+
   setupGame();
 
   document.querySelectorAll('.tile').forEach((tile) => {

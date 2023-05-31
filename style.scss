@@ -50,6 +50,9 @@ button {
     &:nth-child(n + 5):nth-child(-n + 8) {
       border-bottom: var(--board-border);
     }
+    &.invalid {
+      border-color: red;
+    }
     input {
       max-width: 100%;
       box-sizing: border-box;
